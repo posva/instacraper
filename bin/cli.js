@@ -1,5 +1,5 @@
 const yargs = require('yargs')
-const { Downloader } = require('../index')
+const { Downloader } = require('../lib')
 
 const argv = yargs
   .command(

@@ -1,9 +1,24 @@
 {
   "name": "instacraper",
-  "version": "0.0.0",
-  "main": "index.js",
+  "description": "Scrap images from an instagram post and save them locally",
+  "keywords": [
+    "Instagram",
+    "scrap",
+    "scrapping",
+    "download",
+    "multiple",
+    "post",
+    "image",
+    "images"
+  ],
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "bin": "bin/cli.js",
+  "files": [
+    "bin",
+    "lib"
+  ],
   "license": "MIT",
-  "private": true,
   "dependencies": {
     "consola": "^2.7.1",
     "mkdirp": "^0.5.1",
