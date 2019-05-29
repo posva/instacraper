@@ -1,5 +1,6 @@
 const puppeteer = require('puppeteer')
 const fs = require('fs')
+const path = require('path')
 const util = require('util')
 const request = require('request')
 const consola = require('consola')
