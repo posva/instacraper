@@ -14,6 +14,12 @@ npm install -g instacraper
 instacraper 'https://www.instagram.com/p/Bx3F46OFTju/'
 ```
 
+Show help with `-h`
+
+```sh
+instacraper -h
+```
+
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
